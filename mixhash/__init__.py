@@ -1,4 +1,4 @@
-import hashlib, qubit_hash, keccak_hash, lyra2re_hash, neoscrypt, x11_hash
+import hashlib, qubit_hash, keccak_hash, lyra2re_hash, neoscrypt, x16r_hash
 # import lyra2re2_hash
 # import lyra2re_hash
 # import qubit_hash
@@ -35,8 +35,8 @@ def Neoscrypt(x):
 # def GroestlHash(x):
 #     return groestlcoin_hash.getHash(x, len(x))
 
-def X11(x):
-    return x11_hash.getPoWHash(x)
+def X16R(x):
+    return x16r_hash.getPoWHash(x)
 
 # def ScryptHash(x):
 #     """Scrypt (Litecoin parameters) hash."""
@@ -49,6 +49,6 @@ def X11(x):
 #     'Skein': SkeinHash,
 #     'Qubit': QubitHash,
 #     'Groestl': GroestlHash,
-#     'X11': X11Hash,
+#     'X16R': X16RHash,
 #     'Scrypt': ScryptHash,
 # }
