@@ -18,7 +18,7 @@
 #include "../sha3/sph_fugue.h"
 #include "../sha3/sph_shabal.h"
 #include "../sha3/sph_whirlpool.h"
-#include "../sha3/sph_sha2.h"
+#include "../sha3/sph_sha512.h"
 
 //#include "common.h"
 
